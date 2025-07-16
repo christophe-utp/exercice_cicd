@@ -41,7 +41,7 @@ jobs:
 
             # etape : upload du .jar comme artefact telechargable
             - name: Upload build artifact
-              uses: action/upload-artifact@v4
+              uses: actions/upload-artifact@v4
               with:
                 name: spring-app-jar
                 path: target/*.jar
